@@ -1,0 +1,23 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./head.js"
+      },
+      {
+        "type": "script",
+        "contents": "EagerChatra.init(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "id": {
+        "title": "Chatra ID",
+        "description": "Get this from <a href=\"https://app.chatra.io/settings/general\" target=\"_blank\">Chatra General Settings</a>.",
+        "type": "string"
+      }
+    }
+  }
+}
