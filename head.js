@@ -1,5 +1,9 @@
 window.EagerChatra = {
   init: function(options) {
+    if (!options || !options.id) {
+      return;
+    }
+
     window.ChatraID = options.id;
     (function(d, w, c) {
       var n = d.getElementsByTagName('script')[0],
